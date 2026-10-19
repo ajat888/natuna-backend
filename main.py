@@ -47,7 +47,7 @@ def buat_laporan(data: PenjualanData):
                 {"role": "system", "content": "Kamu adalah asisten AI untuk aplikasi kasir NATUNA POS."},
                 {"role": "user", "content": prompt}
             ],
-            model="llama3-8b-8192", # Model gratis & cepat dari Groq
+            model="llama-3.1-8b-instant", # Model gratis & cepat dari Groq
             temperature=0.7,
             max_tokens=300,
         )
