@@ -8,7 +8,7 @@ app = FastAPI(title="Natuna POS AI Backend")
 
 # Inisialisasi Groq Client
 # ⚠️ GANTI DENGAN API KEY GROQ KAMU
-API_KEY = "gsk_ISI_API_KEY_KAMU_DISINI"
+API_KEY = "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"
 client = Groq(api_key=API_KEY)
 
 # ==========================================
